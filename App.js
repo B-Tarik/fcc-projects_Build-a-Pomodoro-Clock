@@ -164,7 +164,7 @@ class App extends Component {
   
   handleBreakSubmit = e => {
     e.preventDefault();
-    const {breakLength, timerLabel, timerState} = this.state;
+    let {breakLength, timerLabel, timerState} = this.state;
     if(timerState === 'running') return
     breakLength = this.validateTime(breakLength)
     timerLabel === 'Break'
