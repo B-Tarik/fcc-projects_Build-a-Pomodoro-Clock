@@ -1,7 +1,7 @@
 # Drum machine
 ### About the project
 
-it's a freecodecamp project in the "Front End Libraries Projects" module, you have to build a Pomodoro Clock. 
+it's a freecodecamp project in the "Front End Libraries Projects" module, you have to build a Pomodoro Clock.  
 bonus*: 
 - set default section
 - add / play / remove tasks
