@@ -314,10 +314,10 @@ class App extends Component {
           activeTask={activeTask}/>
 
         <audio id="beep" preload="auto" 
-          src="https://vocaroo.com/media_command.php?media=s03nBPdhMX1g&command=download_mp3"
+          src="/audio/alarm-sound.mp3"
           ref={(audio) => { this.audioBeep = audio; }} />
         <audio preload="auto" 
-          src="https://vocaroo.com/media_command.php?media=s0tGCLQdMxev&command=download_mp3"
+          src="/audio/alarm-skip.mp3"
           ref={(audioSkip) => { this.audioSkip = audioSkip; }} />
         
       </div> 
